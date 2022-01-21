@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head {
+    background: linear-gradient(rgba(0, 0, 0, 0.568),rgba(0, 0, 0, 0.63)),url(../img/piotr-chrobot-6oUsyeYXgTg-unsplash.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.head h1{
+    font-weight: 400;
+    color: white;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+}
+li{
+    display: inline-block;
+    margin-left: 3em;
+}
+.navig img {
+    float: left;
+    
+}
+.navig ul.nbar{
+    float: right;
+    margin-top: 1.8em;
+}
+.clear {
+    clear: both;
+}
+.navig{
+    padding-top: 1.5em;
+    max-width: 85%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+li a:hover{
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid white;
+    
+}
+/* utility class */
+.redcolor{
+    color: red;
+}
+.whitecolor{
+    color: white;
+}
+.bluecolor{
+    color: rgb(14, 181, 247);
+}
+.headingmedium{
+    font-size: 1.6 rem;
+}
+.headingbar{
+    height: 27%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+.bottombar{
+    font-size: 1.4rem;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 100px;
+
+}
+.button{
+    padding: 0.8em;
+    text-decoration: none;
+    font-weight: 500;
+}
+h1.topbar{
+    margin: 1.2em;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+}
+.middlebar{
+    margin: 2.5em 2.5em 2.5em 2.5em;
+}
+.middlebar {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.row{
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.438) ;
+}
+.showcase{
+    padding: 10rem 10rem;
+    background-color: #ddd;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .image-box,.row2 .text-box {
+    float: right;
+    width: 50%;
+}
+.row1 .text-box,.row2 .image-box{
+    width: 50%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.image-box{
+    height: 100%;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-box{
+    height: 100%;
+    padding: 3.5rem;
+    background-color: white;
+}
+.text-box h1{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+.text-box p{
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    padding-bottom: 2.5REM;
+}
+.text-box a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border: 1px solid red;
+    border-radius: 100px;
+    background-color: whitesmoke;
+}
+.feature{
+    margin: 10rem;
+}
+.container2{
+    box-shadow: 0px, 0px, 20px, 5px rgba(0, 0, 0, 0.534);
+}
+.tox{
+    width: 33.33%;
+}
+.adventure{
+    float: left;
+    background: linear-gradient(rgb(0, 9, 88),rgba(0, 9, 88, 0.829));
+}
+.payless{
+    float: right;
+    background: linear-gradient(rgb(0, 9, 88),rgba(0, 9, 88, 0.829));
+}
+.experience{
+    float: right;
+    background-color: rgb(250, 0, 83);
+    background: linear-gradient(rgb(253, 0, 0),rgba(252, 0, 0, 0.644));
+}
+.tox h2{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin: 2.5rem;
+    text-align: center;
+    color: white;
+}
+.tox p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0rem 2.5rem 2.5rem 2.5rem;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.foot{
+    background-color: #263238;
+    text-align: center;
+}
+ul.links{
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
+}
+.foot p{
+    color: white;
+    padding-left: 1.5rem;
+    padding-bottom: 5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
