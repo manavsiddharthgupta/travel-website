@@ -248,3 +248,183 @@ li.secpage a{
     width: 100%;
     
 }
+.aboutdesc{
+    margin-left: 9.3rem;
+    margin-right: 10rem;
+    margin-top: 0.8rem;
+}
+.aboutdesc p{
+    font-size: 1.2em;
+    line-height: 1.8rem;
+    font-weight: 300;
+}
+.aboutlist{
+    margin-left: 9.3rem;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+}
+.list{
+    width: 50%;
+    text-align: center;
+}
+.list1{
+    float: left;
+}
+.list2{
+    float: right;
+}
+.list ul li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    list-style: none;
+}
+.list ul li::before{
+    content: '\2713';
+    color: rgb(216, 68, 68);
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.numbers{
+    margin-left: 9.3rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+.num{
+    width: 25%;
+    text-align: center;
+}
+.travelnum{
+    float: left;
+}
+.placenum{
+    float: left;
+}
+.guidenum{
+    float: left;
+}
+.sportnum{
+    float: left;
+}
+.num h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(216, 68, 68);
+}
+.num p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+.footerabout{
+    margin-left: 9.3rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    background: linear-gradient(rgba(253, 0, 0, 0.774),rgba(252, 0, 0, 0.671));
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.507);
+}
+.footerdes p{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-left: 0.8em;
+}
+.footerdes{
+    float: left;
+}
+.footerlink{
+    float: right;
+    border: 2px solid white;
+    margin: 0.5em;
+
+}
+.footerlink a{
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.35em 3rem;
+    color: white;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+}
+.contactsec{
+    margin-left: 9.3rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+.conlocation{
+    float: left;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.contactform{
+    float: right;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.849);
+}
+.con{
+    margin-bottom: 1.2em;
+}
+.con h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5em;
+}
+.picc{
+    height: 26em;
+}
+.picc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.con p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.morecont h3{
+    font-size: 1.8rem;
+    letter-spacing: 0.15em;
+    padding-bottom: 0.5em;
+}
+.morecont h3::after{
+    content: "";
+    display: block;
+    margin-top: 0.2em;
+    border: 2px solid rgb(216, 68, 68);
+}
+.morecont p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.formc form label{
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+}
+.formc form input{
+    display: inline-block;
+    margin-bottom: 0.8em;
+    width: 100%;
+    border: 1.8px solid black;
+}
+.formc form textarea{
+    display: inline-block;
+    margin-bottom: 0.8em;
+    width: 100%;
+    border: 1.8px solid black;
+}
+.formc form input.submit{
+    display: inline-block;
+    margin-bottom: 0.8em;
+    color: white;
+    width: 30%;
+    margin-left: 33%;
+    border: 1px solid rgb(216, 68, 68);
+    background: linear-gradient(rgb(253, 0, 0),rgba(252, 0, 0, 0.644));
+    padding: 0.35em;
+}
