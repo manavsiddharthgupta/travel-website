@@ -352,6 +352,7 @@ li.secpage a{
     margin-left: 9.3rem;
     margin-right: 10rem;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 .conlocation{
     float: left;
@@ -427,4 +428,117 @@ li.secpage a{
     border: 1px solid rgb(216, 68, 68);
     background: linear-gradient(rgb(253, 0, 0),rgba(252, 0, 0, 0.644));
     padding: 0.35em;
+}
+@media(max-width: 500px){
+    .showcase{
+        padding: 3rem 2rem;
+    }
+    .text-box{
+        padding: 1rem;
+    }
+    .text-box h1{
+        margin-bottom: 1rem;
+    }
+    .text-box p {
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        padding-bottom: 1rem;
+    }
+    .feature{
+        margin: 3rem 2rem;
+    }
+    .tox{
+        float: none;
+        width: 100%;
+    }
+    .tox h2{
+        padding-top: 1em;
+    }
+    .row1{
+        margin-bottom: 3rem;
+    }
+    .navig2{
+        padding: 3rem;
+    }
+    .contactsec {
+        margin: 3rem;
+    }
+    .conlocation{
+        float: none;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .contactform{
+        float: none;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .mainheadabout {
+        margin-left: 3.3rem;
+        margin-right: 3rem;
+        padding-bottom: 0.8rem;
+        margin-top: 5rem;
+    }
+    .aboutdesc {
+        margin-left: 3.3rem;
+        margin-right: 3rem;
+        margin-top: 0.8rem;
+    }
+    .aboutlist {
+        margin-left: 3.3rem;
+        margin-right: 3rem;
+        margin-top: 1.5rem;
+    }
+    .numbers {
+        margin-left: 3.3rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+    }
+}
+@media (min-width: 501px) and (max-width: 900px){
+    .showcase{
+        padding: 6rem 5rem;
+    }
+    .text-box{
+        padding: 2.8rem;
+    }
+    .text-box h1{
+        margin-bottom: 1.5rem;
+    }
+    .text-box p {
+        letter-spacing: 0.13em;
+        line-height: 1.55em;
+        padding-bottom: 1.2rem;
+    }
+    .feature{
+        margin: 6rem 5rem;
+    }
+    .tox{
+        float: none;
+        width: 100%;
+    }
+    .tox h2{
+        padding-top: 1em;
+    }
+    .row1{
+        margin-bottom: 3rem;
+    }
+}
+@media(min-width: 501px) and (max-width: 821px){
+    .navig2{
+        padding: 5rem;
+    }
+    .contactsec {
+        margin: 5rem;
+    }
+    .conlocation{
+        float: none;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .contactform{
+        float: none;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
 }
